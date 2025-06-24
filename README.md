@@ -13,7 +13,7 @@ https://jeffreys-portfolio.onrender.com/
 | Layer       | Technology        |
 |-------------|-------------------|
 | Framework   | React.js (Vite)   |
-| Styling     | HTML, CSS       |
+| Styling     | HTML, CSS, Tailwind, Framer       |
 | Deployment  | Vercel            |
 
 ---
