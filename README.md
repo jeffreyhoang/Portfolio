@@ -22,6 +22,7 @@ https://jeffreys-portfolio.onrender.com/
 
 - Fast performance using Vite for rapid development and optimized builds  
 - Clean, modern design with smooth navigation and responsive layout  
-- Sections for Projects, Skills, About Me, Contact, and Resume  
+- Smooth animations with Framer
+- Sections for Experience, Projects, Skills, About Me, Contact, and Resume  
 - Mobile-first design for full accessibility on phones and tablets  
 - Deployed and maintained via Vercel for reliable uptime
