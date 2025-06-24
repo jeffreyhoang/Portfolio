@@ -1,4 +1,5 @@
 import { React } from "react";
+import { motion } from "motion/react";
 import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -7,11 +8,26 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { ReactTyped } from "react-typed";
 
+const fadeInVariants = {
+    offscreen: { opacity: 0 },
+    onscreen: (i) => ({
+        opacity: 1,
+        transition: {
+            duration: 0.8,
+        },
+    }),
+}
 
 const Homepage = () => {
     return (
         <section className="h-[calc(100vh-80px)] bg-[url(/assets/img/background.jpg)] bg-cover bg-center bg-no-repeat px-8 md:px-16 2xl:px-24">
-            <div className="flex flex-row h-full">
+            <motion.div 
+                initial="offscreen"
+                whileInView="onscreen"
+                viewport={{ once: true, amount: 0.3}}
+                variants={fadeInVariants}
+                className="flex flex-row h-full"
+            >
                 {/* Left: Text */}
                 <div className="flex-3 flex flex-col justify-center items-center md:items-start text-center md:text-left gap-5 md:pr-10">
                     <h2 className="md:self-start text-blue-600 text-xl sm:text-2xl 2xl:text-3xl py-1 px-5 bg-blue-500/20 rounded-md border-2 border-blue-600">
@@ -61,7 +77,7 @@ const Homepage = () => {
                         className="homepage-astronaut-image"
                     />
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 };
