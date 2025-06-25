@@ -45,7 +45,7 @@ const cardVariants = {
 
 const Projects = () => {
     return (
-        <section className="relative px-8 py-16 flex flex-col gap-8 bg-gradient-to-b from-blue-900 to-sky-600"> 
+        <section className="relative px-8 py-20 flex flex-col gap-8 bg-gradient-to-b from-blue-900 to-sky-600"> 
 
             {/* Background image (behind content) */}
             <img 

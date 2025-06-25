@@ -20,7 +20,7 @@ const fadeInVariants = {
 
 const Homepage = () => {
     return (
-        <section className="h-[calc(100vh-80px)] bg-[url(/assets/img/background.jpg)] bg-cover bg-center bg-no-repeat px-8 md:px-16 2xl:px-24">
+        <section className="h-screen bg-[url(/assets/img/background.jpg)] bg-cover bg-center bg-no-repeat px-8 md:px-16 2xl:px-24">
             <motion.div 
                 initial="offscreen"
                 whileInView="onscreen"

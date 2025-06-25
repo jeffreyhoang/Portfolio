@@ -62,7 +62,7 @@ const Contact = () => {
 
     return (
         <div className="bg-gradient-to-b from-sky-600 md:h-screen overflow-hidden">
-            <div className="relative px-8 pt-16 flex flex-col gap-8">
+            <div className="relative px-8 pt-20 flex flex-col gap-4 md:gap-8">
 
                 {/* Title Section */}
                 <div className="flex items-center justify-center gap-4 z-1">
@@ -73,7 +73,7 @@ const Contact = () => {
                     <div className="w-20 sm:w-24 h-2 bg-white clip-point-right"></div>
                 </div>
 
-                <div className="container mx-auto flex flex-col gap-12 items-center md:items-start md:justify-center md:flex-row z-10">
+                <div className="container mx-auto flex flex-col gap-6 md:gap-12 items-center md:items-start md:justify-center md:flex-row z-10">
                     {/* Let's Talk Section */}
                     <motion.div 
                         initial="offscreen"

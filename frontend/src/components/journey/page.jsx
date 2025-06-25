@@ -81,7 +81,7 @@ const rightVariants = {
 
 const Journey = () => {
     return (
-        <section className="relative flex flex-col bg-gradient-to-b from-black to-blue-900 px-8 py-16 gap-8 overflow-hidden">
+        <section className="relative flex flex-col bg-gradient-to-b from-black to-blue-900 px-8 py-20 gap-8 overflow-hidden">
             {/* Background image (behind content) */}
             <img 
                 src="/assets/img/background2.png" 

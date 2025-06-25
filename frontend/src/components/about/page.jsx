@@ -57,8 +57,7 @@ const fadeInVariants = {
 
 const About = () => {
     return (
-        <section className="relative bg-[url('/assets/img/background1.png')] bg-cover bg-right bg-no-repeat bg-black flex flex-col gap-8 px-8 py-16">
-
+        <section className="relative bg-[url('/assets/img/background1.png')] bg-cover bg-right bg-no-repeat bg-black flex flex-col gap-8 px-8 py-20">
             {/* Title Section */}
             <div className="flex items-center justify-center gap-4 z-10">
                 <div className="w-20 sm:w-24 h-2 bg-white clip-point-left"></div>
