@@ -88,13 +88,13 @@ const About = () => {
                 {/* Right */}
                 <div className="flex flex-col gap-8 md:justify-between max-w-100 lg:max-w-175">
                     <div className="flex flex-col gap-4 md:gap-2">
-                        <p className="text-zinc-400 text-sm md:text-lg text-center md:text-start">
+                        <p className="text-zinc-400 text-base md:text-lg text-center md:text-start">
                             Born and raised in Sacramento, California, my college journey has pushed my 
                             passion for creating meaningful technology. I am especially interested in integrating 
                             artificial intelligence into efficient, user-friendly software products that 
                             positively impact people's lives.
                         </p>
-                        <p className="text-zinc-400 text-sm md:text-lg text-center md:text-start">
+                        <p className="text-zinc-400 text-base md:text-lg text-center md:text-start">
                             After graduation, I plan to continue my journey by pursuing a master's degree in AI 
                             to deepen my expertise and expand the possibilities of what I can build.
                         </p>
