@@ -11,7 +11,7 @@ const events = [
     {
         date: "August 2023 - December 2023",
         title: "HTGR Project",
-        description: "A year into college, I joined the Software Engineering Association (SEA) club and took on a leadership role in the HTGR project. I led a team of five to develop and fine-tune a Support Vector Machine (SVM) model to predict driving behaviors using time-series sensor data. With careful hyperparameter tuning and validation, we reached an 84.09% test accuracy—my first real taste of applied machine learning and collaborative development.",
+        description: "A year into college, I joined the Software Engineering Association (SEA) club and took on a leadership role in the HTGR project. I led a small team to develop and fine-tune a Support Vector Machine (SVM) model to predict driving behaviors using time-series sensor data. With careful hyperparameter tuning and validation, we reached an 84.09% test accuracy—my first real taste of applied machine learning and collaborative development.",
         image: "assets/img/events/htgr.png"
     },
     {
@@ -23,7 +23,7 @@ const events = [
     {
         date: "August 2024 - Current",
         title: "Student Research Assistant",
-        description: "After the STARS internship, I was hired to continue working with Dr. Hao Ji as a Student Research Assistant in the Computational Intelligence Lab. I developed automation tools to control multi-camera GoPro systems using Python and the OpenGoPro API, along with REST APIs to manage recordings and data transfer. Now, I’m focused on integrating tools like EasyMocap and Pose2Sim to build a streamlined and accurate 3D motion capture and reconstruction pipeline.",
+        description: "After the STARS internship, I was hired to continue working with Dr. Hao Ji as a Student Research Assistant in the Computational Intelligence Lab. I built automation tools to control multi-camera GoPro systems using Python and the OpenGoPro API, along with REST APIs for managing recordings and data transfer. I also trained a fully connected deep neural network for 3D keypoint detection on the H3.6M dataset from scratch using TensorFlow and NCSA Delta GPU acceleration, handling large-scale preprocessing and applying batch normalization, ReLU activation, dropout, and linear layers to improve performance and generalization.",
         image: "assets/img/events/assistant.jpg"
     },
     {
