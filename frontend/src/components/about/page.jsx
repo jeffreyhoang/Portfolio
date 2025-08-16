@@ -79,7 +79,7 @@ const About = () => {
                 {/* Left */}
                 <div className="p-[2px] rounded-xl bg-gradient-to-r from-sky-400 to-white">
                     <img 
-                        src="/assets/img/profile.jpg" 
+                        src="/assets/img/profile2.png" 
                         alt="" 
                         className="max-h-100 md:max-h-125 object-contain w-auto rounded-xl"
                     />
