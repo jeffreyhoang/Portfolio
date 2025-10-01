@@ -35,7 +35,7 @@ const events = [
     {
         date: "June 2025 - Current",
         title: "Sloka – AI-Powered Educational Platform",
-        description: "As Summer began, I joined Sloka — a startup company dedicated to transforming education through AI by creating personalized, emotionally adaptive learning experiences for children. The platform features an AI learning companion, a social-emotional learning coach, and immersive imagination-based lessons to engage students in a fun, meaningful way. I'm currently working closely with Sloka's AI engineer and leading the development of the frontend to bring these features to life.",
+        description: "As Summer began, I joined Sloka — a startup dedicated to transforming education through AI by creating personalized, emotionally adaptive learning experiences for children. The platform features an AI learning companion, a social-emotional learning coach, and immersive imagination-based lessons to engage students in a fun, meaningful way. I now serve as the Software Engineering Lead, working with a team of AI and frontend engineers to design and develop the product.",
         image: "assets/img/events/sloka.png"
     },
     {
