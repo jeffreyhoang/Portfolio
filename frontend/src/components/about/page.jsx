@@ -4,44 +4,44 @@ import { motion } from "motion/react"
 const skills = [
     
     {
-        skill: "CSS",
-        icon: "/assets/img/skills/css.png",
+        skill: "Pytorch",
+        icon: "/assets/img/skills/pytorch.png",
     },
     {
         skill: "Python",
         icon: "/assets/img/skills/python.png",
     },
     {
-        skill: "React",
-        icon: "/assets/img/skills/react.png",
+        skill: "Next.js",
+        icon: "/assets/img/skills/javascript.png",
     },    
     {
-        skill: "HTML",
-        icon: "/assets/img/skills/html.png",
+        skill: "Tensorflow",
+        icon: "/assets/img/skills/tensorflow.png",
     },
     {
         skill: "Java",
         icon: "/assets/img/skills/java.png",
     },
     {
-        skill: "PostgreSQL",
-        icon: "/assets/img/skills/postgresql.svg",
+        skill: "React",
+        icon: "/assets/img/skills/react.png",
     },
     {
-        skill: "Tailwind",
-        icon: "/assets/img/skills/tailwind.png",
+        skill: "Matplotlib",
+        icon: "/assets/img/skills/matplotlib.png",
     },
     {
-        skill: "Javascript",
-        icon: "/assets/img/skills/java-script.png",
-    },
-    {
-        skill: "Rest APIs",
-        icon: "/assets/img/skills/api.png",
+        skill: "SQL",
+        icon: "/assets/img/skills/sql.png",
     },
     {
         skill: "Django",
         icon: "/assets/img/skills/django.png",
+    },
+    {
+        skill: "Scikit-Learn",
+        icon: "/assets/img/skills/scikit.png",
     },
 ]
 

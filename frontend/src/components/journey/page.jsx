@@ -5,49 +5,49 @@ const events = [
     {
         date: "August 2022",
         title: "Started College at Cal Poly Pomona",
-        description: "My journey in Computer Science began at Cal Poly Pomona, sparked by a deep curiosity for how things work and a passion for building meaningful technology. From the start, I was drawn to the intersection of AI and software development, eager to learn and turn creative ideas into something real.",
+        description: "My journey in Computer Science began at Cal Poly Pomona, driven by curiosity and a passion for building meaningful technology.",
         image: "/assets/img/events/college.png",
     },
     {
         date: "August 2023 - December 2023",
-        title: "HTGR Project",
-        description: "A year into college, I joined the Software Engineering Association (SEA) club and took on a leadership role in the HTGR project. I led a small team to develop and fine-tune a Support Vector Machine (SVM) model to predict driving behaviors using time-series sensor data. With careful hyperparameter tuning and validation, we reached an 84.09% test accuracy—my first real taste of applied machine learning and collaborative development.",
+        title: "Software Engineering Assocation - HTGR Project",
+        description: "I directed the development of the Software Engineering Association's HTGR project, an initiative designed to introduce students to fundamental machine learning concepts through real-world models such as Random Forest, Long Short-Term Memory, and Support Vector Machines.",
         image: "assets/img/events/htgr.png"
     },
     {
         date: "May 2024 - August 2024",
-        title: "Machine Learning Research Intern",
-        description: "Selected for the STARS Program at Cal Poly Pomona, I had the opportunity to work under Dr. Hao Ji on a cutting-edge research project. We explored multi-view geometry and markerless human pose estimation using calibrated camera setups. I built a full-stack Django web application to automate the EasyMocap pipeline, from camera calibration to 3D pose reconstruction—bringing research to life through real code and meaningful impact.",
+        title: "STARS: Machine Learning Research Intern",
+        description: "Selected for the STARS Program at Cal Poly Pomona, I worked with Dr. Hao Ji on multi-view geometry and markerless human pose estimation, developing a Django web app to automate EasyMocap from calibration to pose estimation to 3D reconstruction",
         image: "assets/img/events/stars.png"
     },
     {
         date: "August 2024 - Current",
         title: "Student Research Assistant",
-        description: "After the STARS internship, I was hired to continue working with Dr. Hao Ji as a Student Research Assistant in the Computational Intelligence Lab. I built automation tools to control multi-camera GoPro systems using Python and the OpenGoPro API, along with REST APIs for managing recordings and data transfer. I also trained a fully connected deep neural network for 3D keypoint detection on the H3.6M dataset from scratch using TensorFlow and NCSA Delta GPU acceleration, handling large-scale preprocessing and applying batch normalization, ReLU activation, dropout, and linear layers to improve performance and generalization.",
+        description: "After the STARS Program, I was hired by Dr. Hao Ji as a Student Research Assistant at the Computational Intelligence Lab to explore advanced computer vision methods, progressing towards training deep neural networks and developing physics-based modeling for precise 3D human motion analysis.",
         image: "assets/img/events/assistant.jpg"
     },
     {
         date: "May 2025 - Current",
         title: "AesthetiqAI",
-        description: "Using tools I developed in my software engineering class, I created a startup prototype called AesthetiqAI — an AI-powered custom phone case platform where users can generate images from text prompts and preview them on phone cases. Built with Django and React, it supports real-time image overlay and user customization. I plan to expand it with more image generation features and offer additional customizable accessories in the future—maybe even turn it into a business one day!",
+        description: "Using tools from my software engineering class, I built AesthetiqAI, an AI-powered custom phone case platform where users generate and preview designs in real time using Django and React.",
         image: "assets/img/events/phonecase.jpg"
     },
     {
         date: "June 2025 - Current",
-        title: "Sloka – AI-Powered Educational Platform",
-        description: "As Summer began, I joined Sloka — a startup dedicated to transforming education through AI by creating personalized, emotionally adaptive learning experiences for children. The platform features an AI learning companion, a social-emotional learning coach, and immersive imagination-based lessons to engage students in a fun, meaningful way. I now serve as the Software Engineering Lead, working with a team of AI and frontend engineers to design and develop the product.",
+        title: "Sloka – AI Education Startup",
+        description: "I currently direct the development of Sloka, an adaptive AI education platform focused on personalized and social-emotional learning. Through Cal Poly Pomona’s Project Hatchery, I secured $5,000 in seed funding and faculty support, and my team is now piloting the platform with schools in Pomona and Chino Hills to promote inclusive, AI-driven learning environments.",
         image: "assets/img/events/sloka.png"
     },
     {
         date: "December 2025",
         title: "Graduation from Cal Poly Pomona",
-        description: "After years of learning, coding, and creating, I’ll be graduating from Cal Poly Pomona with a degree in Computer Science. This journey has shaped who I am—someone who loves to build, lead, and solve real-world problems through technology. I’m excited to take all I’ve learned into the next chapter.",
+        description: "I am graduating from Cal Poly Pomona with a degree in Computer Science, ready to apply my experience in building, leading, and solving real-world problems through technology.",
         image: "assets/img/events/calpolypomona.jpeg"       
     },
     {
         date: "2026",
         title: "Master's in Artificial Intelligence",
-        description: "Following graduation, I plan to pursue a Master’s in Artificial Intelligence to deepen my knowledge and sharpen my skills. My goal is to push the boundaries of what’s possible with AI, from research to product development, and continue creating tech that matters.",
+        description: "I plan to pursue a Master’s in Artificial Intelligence to advance my skills and create AI technologies that drive real-world impact.",
         image: "assets/img/events/masters.jpg"       
     }
 ]
